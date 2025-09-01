@@ -35,3 +35,13 @@ terraform state push <file>
 Replace provider
 
 terraform state replace-provider <old> <new>
+
+NOTE:
+
+Not part of terraform state
+
+Refreshing reality → terraform plan -refresh-only
+
+Creating new state file → terraform init/apply
+
+Changing infra → terraform apply
