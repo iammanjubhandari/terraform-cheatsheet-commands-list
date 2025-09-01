@@ -1,0 +1,23 @@
+List resources
+
+terraform state list
+
+
+Show details of a resource
+
+terraform state show <resource_address>
+
+
+Remove a resource
+
+terraform state rm <resource_address>
+
+
+Move a resource
+
+terraform state mv <source> <destination>
+
+
+Pull state
+
+terraform state pull
