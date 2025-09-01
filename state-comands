@@ -1,44 +1,44 @@
-List possible commands
+# List possible commands
 terraform state
 
 
-List resources
+# List resources
 
 terraform state list
 
 
-Show details of a resource
+# Show details of a resource
 
 terraform state show <resource_address>
 
 
-Remove a resource
+# Remove a resource
 
 terraform state rm <resource_address>
 
 
-Move a resource
+# Move a resource
 
 terraform state mv <source> <destination>
 
 
-Pull state
+# Pull state
 
 terraform state pull
 
 
-Push state
+# Push state
 
 terraform state push <file>
 
 
-Replace provider
+# Replace provider
 
 terraform state replace-provider <old> <new>
 
 NOTE:
 
-Not part of terraform state
+# Not part of terraform state
 
 Refreshing reality → terraform plan -refresh-only
 
