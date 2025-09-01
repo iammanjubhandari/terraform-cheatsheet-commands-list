@@ -1,3 +1,7 @@
+List possible commands
+terraform state
+
+
 List resources
 
 terraform state list
@@ -21,3 +25,13 @@ terraform state mv <source> <destination>
 Pull state
 
 terraform state pull
+
+
+Push state
+
+terraform state push <file>
+
+
+Replace provider
+
+terraform state replace-provider <old> <new>
