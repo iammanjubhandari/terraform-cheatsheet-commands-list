@@ -1,0 +1,25 @@
+
+- Create workspace:
+    
+    ```bash
+    terraform workspace new dev
+    ```
+    
+- List workspaces:
+    
+    ```bash
+    terraform workspace list
+    ```
+    
+- Switch workspace:
+    
+    ```bash
+    terraform workspace select dev
+    ```
+    
+- Show current workspace:
+    
+    ```bash
+    terraform workspace show
+    ```
+    
