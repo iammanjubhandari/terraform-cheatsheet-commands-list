@@ -7,8 +7,3 @@ Validates the configuration files.
 terraform fmt 
 Formats the code according to Terraform style conventions.
 
-terraform version 
-Shows the current Terraform version.
-
-terraform providers 
-Lists providers used in the configuration.
