@@ -1,0 +1,6 @@
+terraform plan
+Creates an execution plan (shows what will change).
+
+terraform apply
+Applies the changes required to reach the desired state.
+
