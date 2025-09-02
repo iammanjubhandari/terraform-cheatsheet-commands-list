@@ -10,3 +10,5 @@ Applies changes without confirmation.
 terraform destroy
 Destroys all managed infrastructure.
 
+terraform destroy -target=<resource>
+Destroys only the specified resource.
